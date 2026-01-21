@@ -18,11 +18,17 @@ Nu se scrie cod, doar PROMPTURI.
 Scrie un prompt zero-shot pentru generarea unui plan de antrenament de forță
 pentru un adult sănătos, respectând TOATE instrucțiunile obligatorii.
 
+Prompt:
+
+
 ----------------------------------------------------------------
 2. ZERO-SHOT PROMPTING + PERSONIFICARE
 ----------------------------------------------------------------
 Scrie un prompt zero-shot în care modelul este personificat ca
 „antrenor personal certificat”, respectând structura cerută.
+
+Prompt:
+
 
 ----------------------------------------------------------------
 3. FEW-SHOT PROMPTING
@@ -31,11 +37,17 @@ Creează un prompt care include 2 exemple (întrebare + răspuns),
 apoi cere modelului să răspundă la o a treia întrebare,
 folosind context și format de ieșire explicit.
 
+Prompt:
+
+
 ----------------------------------------------------------------
 4. FEW-SHOT PROMPTING + PERSONIFICARE
 ----------------------------------------------------------------
 Construiește un prompt few-shot în care modelul este personificat
 ca „antrenor pentru începători” și trebuie să păstreze stilul.
+
+Prompt:
+
 
 ----------------------------------------------------------------
 5. CHAIN OF THOUGHT
@@ -43,11 +55,17 @@ ca „antrenor pentru începători” și trebuie să păstreze stilul.
 Scrie un prompt care cere modelului să gândească pas cu pas
 pentru a construi un plan de slăbire, cu format explicit.
 
+Prompt:
+
+
 ----------------------------------------------------------------
 6. CHAIN OF THOUGHT + PERSONIFICARE
 ----------------------------------------------------------------
 Formulează un prompt în care modelul este personificat ca
 „specialist în fiziologia efortului” și explică raționamentul.
+
+Prompt:
+
 
 ----------------------------------------------------------------
 7. TREE OF THOUGHT
@@ -55,11 +73,17 @@ Formulează un prompt în care modelul este personificat ca
 Creează un prompt care cere explorarea a minimum 3 soluții diferite
 și alegerea celei mai bune, cu justificare.
 
+Prompt:
+
+
 ----------------------------------------------------------------
 8. TREE OF THOUGHT + PERSONIFICARE
 ----------------------------------------------------------------
 Scrie un prompt în care modelul este personificat ca
 „consultant fitness” și compară strategii diferite.
+
+Prompt:
+
 
 ----------------------------------------------------------------
 9. SELF-CONSISTENCY
@@ -67,17 +91,26 @@ Scrie un prompt în care modelul este personificat ca
 Formulează un prompt care cere generarea a 3 soluții independente
 și un răspuns final consolidat.
 
+Prompt:
+
+
 ----------------------------------------------------------------
 10. SELF-CONSISTENCY + PERSONIFICARE
 ----------------------------------------------------------------
 Creează un prompt în care modelul este personificat ca
 „antrenor cu experiență de 20 de ani” și sintetizează rezultatul.
 
+Prompt:
+
+
 ----------------------------------------------------------------
 11. META PROMPTING
 ----------------------------------------------------------------
 Scrie un prompt în care modelul își definește singur pașii
 pentru a răspunde corect la o cerință fitness.
+
+Prompt:
+
 
 ----------------------------------------------------------------
 12. GENERATED KNOWLEDGE PROMPTING + PERSONIFICARE
@@ -86,6 +119,9 @@ Creează un prompt în care modelul este personificat ca
 „expert în hipertrofie”, generează cunoștințe,
 apoi creează un plan de antrenament.
 
+Prompt:
+
+
 ----------------------------------------------------------------
 13. PROMPT CHAINING
 ----------------------------------------------------------------
@@ -93,11 +129,17 @@ Construiește un prompt cu două etape clare:
 1) analiză obiectiv fitness
 2) generare plan structurat
 
+Prompt:
+
+
 ----------------------------------------------------------------
 14. REACT (Reason + Act) + PERSONIFICARE
 ----------------------------------------------------------------
 Scrie un prompt în care modelul explică raționamentul (Reason)
 și propune acțiuni concrete (Act), într-un format clar.
+
+Prompt:
+
 
 ----------------------------------------------------------------
 15. MULTIMODAL PROMPTING + PERSONIFICARE
@@ -105,3 +147,6 @@ Scrie un prompt în care modelul explică raționamentul (Reason)
 Formulează un prompt în care modelul este personificat ca
 „antrenor într-o sală de fitness”, primește o imagine
 și recomandă exerciții pe baza ei.
+
+Prompt:
+

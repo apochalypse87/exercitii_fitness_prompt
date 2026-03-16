@@ -20,14 +20,14 @@ pentru un adult sănătos, respectând TOATE instrucțiunile obligatorii.
 
 Prompt:
 
-Generează un plan de antrenament de forță pentru un adult sănătos.
+Generează un plan de antrenament de forta pentru un adult sanatos.
 
 Context utilizator:
 	•	Vârstă: 30 ani
-	•	Nivel: începător
-	•	Disponibilitate: 3 antrenamente pe săptămână
-	•	Acces la sală complet echipată
-	•	Obiectiv: creșterea forței și tonifiere musculară
+	•	Nivel: incepator
+	•	Disponibilitate: 3 antrenamente pe saptamana
+	•	Acces la sala complet echipata
+	•	Obiectiv: cresterea fortei si tonifiere musculara
 	•	Fără accidentări sau probleme medicale
 
 Instrucțiuni:
@@ -48,9 +48,7 @@ Format de ieșire:
 ----------------------------------------------------------------
 Scrie un prompt zero-shot în care modelul este personificat ca
 „antrenor personal certificat”, respectând structura cerută
-entru un antrenament de forță.
-
-Prompt:
+pentru un antrenament de forță.
 
 Prompt:
 

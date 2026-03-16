@@ -1,44 +1,44 @@
 
-SET DE EXERCIȚII – PROMPTING PENTRU FITNESS (10 exerciții)
+SET DE EXERCITII – PROMPTING PENTRU FITNESS (10 exercitii)
 ================================================================
 
-INSTRUCȚIUNI OBLIGATORII (pentru TOATE exercițiile):
-Fiecare prompt scris de student TREBUIE să conțină explicit:
-1. INSTRUCȚIUNI clare și specifice pentru modelul llm
-2. CONTEXT (situația utilizatorului, constrângeri)
-3. FORMAT DE IEȘIRE clar (structură, bullet points, pași etc.)
+INSTRUCTIUNI OBLIGATORII (pentru TOATE exercitiile):
+Fiecare prompt scris de student TREBUIE sa contina explicit:
+1. INSTRUCTIUNI clare si specifice pentru modelul llm
+2. CONTEXT (situatia utilizatorului, constrangeri)
+3. FORMAT DE IESIRE clar (structura, bullet points, pasi etc.)
 
 Domeniu: FITNESS
-Limbaj: LIMBA ROMÂNĂ
+Limbaj: LIMBA ROMANA
 Nu se scrie cod, doar PROMPTURI.
 
 ----------------------------------------------------------------
 1. ZERO-SHOT PROMPTING
 ----------------------------------------------------------------
-Scrie un prompt zero-shot pentru generarea unui plan de antrenament de forță
-pentru un adult sănătos, respectând TOATE instrucțiunile obligatorii.
+Scrie un prompt zero-shot pentru generarea unui plan de antrenament de forta
+pentru un adult sanatos, respectand TOATE instructiunile obligatorii.
 
 Prompt:
 
-Generează un plan de antrenament de forta pentru un adult sanatos.
+Genereaza un plan de antrenament de forta pentru un adult sanatos.
 
 Context utilizator:
-	•	Vârstă: 30 ani
+	•	Varsta: 30 ani
 	•	Nivel: incepator
 	•	Disponibilitate: 3 antrenamente pe saptamana
 	•	Acces la sala complet echipata
 	•	Obiectiv: cresterea fortei si tonifiere musculara
-	•	Fără accidentări sau probleme medicale
+	•	Fara accidentari sau probleme medicale
 
-Instrucțiuni:
-	•	Include exerciții pentru toate grupele musculare majore
-	•	Specifică seturi, repetări și pauze
-	•	Adaugă recomandări de încălzire și stretching
-	•	Folosește explicații clare și concise
+Instructiuni:
+	•	Include exercitii pentru toate grupele musculare majore
+	•	Specifica seturi, repetari si pauze
+	•	Adauga recomandari de incalzire si stretching
+	•	Foloseste explicatii clare si concise
 
-Format de ieșire:
+Format de iesire:
 	•	Titlu plan
-	•	Recomandări generale (bullet points)
+	•	Recomandari generale (bullet points)
 	•	Plan structurat pe Ziua 1 / Ziua 2 / Ziua 3
 	•	Sfaturi finale pentru progres
 
@@ -46,64 +46,64 @@ Format de ieșire:
 ----------------------------------------------------------------
 2. ZERO-SHOT PROMPTING + PERSONIFICARE
 ----------------------------------------------------------------
-Scrie un prompt zero-shot în care modelul este personificat ca
-„antrenor personal certificat”, respectând structura cerută
-pentru un antrenament de forță.
+Scrie un prompt zero-shot in care modelul este personificat ca
+„antrenor personal certificat", respectand structura ceruta
+pentru un antrenament de forta.
 
 Prompt:
 
-Acționează ca un antrenor personal certificat și creează un plan de antrenament de forță.
+Actioneaza ca un antrenor personal certificat si creeaza un plan de antrenament de forta.
 
 Context utilizator:
-	•	Adult sănătos, 35 ani
+	•	Adult sanatos, 35 ani
 	•	Nivel intermediar
 	•	4 zile disponibile pentru antrenament
-	•	Obiectiv: creșterea masei musculare
+	•	Obiectiv: cresterea masei musculare
 
-Instrucțiuni:
-	•	Oferă explicații motivaționale și profesionale
-	•	Include exerciții compuse și izolate
-	•	Specifică intensitatea și timpul de recuperare
+Instructiuni:
+	•	Ofera explicatii motivationale si profesionale
+	•	Include exercitii compuse si izolate
+	•	Specifica intensitatea si timpul de recuperare
 
-Format de ieșire:
-	•	Introducere motivațională
-	•	Program pe zile (listă structurată)
-	•	Recomandări nutriționale scurte
-	•	Sfaturi de siguranță
+Format de iesire:
+	•	Introducere motivationala
+	•	Program pe zile (lista structurata)
+	•	Recomandari nutritionale scurte
+	•	Sfaturi de siguranta
 
 ----------------------------------------------------------------
 3. FEW-SHOT PROMPTING
 ----------------------------------------------------------------
-Creează un prompt care include 2 exemple (întrebare + răspuns),
-apoi cere modelului să răspundă la o a treia întrebare,
-folosind context și format de ieșire explicit (contextul: fitness).
+Creeaza un prompt care include 2 exemple (intrebare + raspuns),
+apoi cere modelului sa raspunda la o a treia intrebare,
+folosind context si format de iesire explicit (contextul: fitness).
 
 Prompt:
 
-Răspunde la cererea finală folosind stilul și structura din exemplele de mai jos.
+Raspunde la cererea finala folosind stilul si structura din exemplele de mai jos.
 
-Context general: fitness și antrenament pentru sănătate.
+Context general: fitness si antrenament pentru sanatate.
 
 Exemplul 1:
-Întrebare: Creează un mini-antrenament cardio pentru începători.
-Răspuns:
-	•	Încălzire: mers rapid 5 min
-	•	Exerciții: jumping jacks 3×20, genuflexiuni 3×15
+Intrebare: Creeaza un mini-antrenament cardio pentru incepatori.
+Raspuns:
+	•	Incalzire: mers rapid 5 min
+	•	Exercitii: jumping jacks 3x20, genuflexiuni 3x15
 	•	Revenire: stretching 5 min
 
 Exemplul 2:
-Întrebare: Propune exerciții pentru abdomen acasă.
-Răspuns:
-	•	Planșă 3×30 sec
-	•	Crunch 3×20
-	•	Ridicări picioare 3×15
+Intrebare: Propune exercitii pentru abdomen acasa.
+Raspuns:
+	•	Plansa 3x30 sec
+	•	Crunch 3x20
+	•	Ridicari picioare 3x15
 
-Cerință finală:
-Creează un antrenament pentru forța picioarelor la sală.
+Cerinta finala:
+Creeaza un antrenament pentru forta picioarelor la sala.
 
-Format de ieșire:
-	•	Încălzire
-	•	Exerciții (bullet points cu seturi și repetări)
+Format de iesire:
+	•	Incalzire
+	•	Exercitii (bullet points cu seturi si repetari)
 	•	Stretching final
 
 
@@ -111,53 +111,53 @@ Format de ieșire:
 ----------------------------------------------------------------
 4. CHAIN OF THOUGHT
 ----------------------------------------------------------------
-Scrie un prompt care cere modelului să gândească pas cu pas
-pentru a construi un plan de slăbire, cu format explicit.
+Scrie un prompt care cere modelului sa gandeasca pas cu pas
+pentru a construi un plan de slabire, cu format explicit.
 
 
 Prompt:
 
-Construiește un plan de slăbire explicând pas cu pas raționamentul.
+Construieste un plan de slabire explicand pas cu pas rationamentul.
 
 Context utilizator:
 	•	Adult 40 ani
 	•	Sedentar
-	•	Vrea să slăbească 8 kg în 4 luni
-	•	Poate face sport 4 zile/săptămână
+	•	Vrea sa slabeasca 8 kg in 4 luni
+	•	Poate face sport 4 zile/saptamana
 
-Instrucțiuni:
-	•	Analizează obiectivul
-	•	Determină tipul de antrenament optim
-	•	Creează program progresiv
+Instructiuni:
+	•	Analizeaza obiectivul
+	•	Determina tipul de antrenament optim
+	•	Creeaza program progresiv
 
-Format de ieșire:
-	1.	Analiza situației
-	2.	Strategia aleasă
-	3.	Plan săptămânal structurat
-	4.	Recomandări nutriționale
+Format de iesire:
+	1.	Analiza situatiei
+	2.	Strategia aleasa
+	3.	Plan saptamanal structurat
+	4.	Recomandari nutritionale
 
 
 
 ----------------------------------------------------------------
 5. CHAIN OF THOUGHT + PERSONIFICARE
 ----------------------------------------------------------------
-Formulează un prompt în care modelul este personificat ca
-„specialist în fiziologia efortului” și explică raționamentul.
+Formuleaza un prompt in care modelul este personificat ca
+„specialist in fiziologia efortului" si explica rationamentul.
 
 Prompt:
 
-Acționează ca un specialist în fiziologia efortului și explică raționamentul pas cu pas pentru crearea unui plan fitness.
+Actioneaza ca un specialist in fiziologia efortului si explica rationamentul pas cu pas pentru crearea unui plan fitness.
 
 Context utilizator:
 	•	Adult activ
-	•	Obiectiv: rezistență cardiovasculară și tonifiere
+	•	Obiectiv: rezistenta cardiovasculara si tonifiere
 
-Instrucțiuni:
-	•	Explică impactul fiecărui tip de exercițiu asupra corpului
-	•	Justifică alegerea intensității
+Instructiuni:
+	•	Explica impactul fiecarui tip de exercitiu asupra corpului
+	•	Justifica alegerea intensitatii
 
-Format de ieșire:
-	•	Explicație logică etapizată
+Format de iesire:
+	•	Explicatie logica etapizata
 	•	Plan de antrenament pe zile
 	•	Sfaturi de recuperare
 
@@ -165,23 +165,23 @@ Format de ieșire:
 ----------------------------------------------------------------
 6. TREE OF THOUGHT
 ----------------------------------------------------------------
-Creează un prompt care cere explorarea a minimum 3 soluții diferite
-pentru un plan de antrenament și alegerea celei mai bune, cu justificare.
+Creeaza un prompt care cere explorarea a minimum 3 solutii diferite
+pentru un plan de antrenament si alegerea celei mai bune, cu justificare.
 
 Prompt:
 
-Explorează minimum 3 strategii diferite de antrenament pentru creșterea forței și alege varianta optimă.
+Exploreaza minimum 3 strategii diferite de antrenament pentru cresterea fortei si alege varianta optima.
 
 Context utilizator:
 	•	Adult 28 ani
 	•	Nivel intermediar
-	•	3 zile/săptămână disponibile
+	•	3 zile/saptamana disponibile
 
-Instrucțiuni:
-	•	Compară avantajele și dezavantajele fiecărei strategii
-	•	Alege soluția cea mai eficientă
+Instructiuni:
+	•	Compara avantajele si dezavantajele fiecarei strategii
+	•	Alege solutia cea mai eficienta
 
-Format de ieșire:
+Format de iesire:
 	•	Strategie 1 (descriere + pro/contra)
 	•	Strategie 2 (descriere + pro/contra)
 	•	Strategie 3 (descriere + pro/contra)
@@ -191,99 +191,99 @@ Format de ieșire:
 ----------------------------------------------------------------
 7. TREE OF THOUGHT + PERSONIFICARE
 ----------------------------------------------------------------
-Scrie un prompt în care modelul este personificat ca
-„consultant fitness” ce creaza un plan săptămânal și compară strategii diferite.
+Scrie un prompt in care modelul este personificat ca
+„consultant fitness" ce creeaza un plan saptamanal si compara strategii diferite.
 
 Prompt:
 
-Acționează ca un consultant fitness profesionist și creează un plan săptămânal analizând strategii diferite.
+Actioneaza ca un consultant fitness profesionist si creeaza un plan saptamanal analizand strategii diferite.
 
 Context utilizator:
 	•	Adult ocupat
 	•	Doar 30 min/antrenament
 	•	Obiectiv: fitness general
 
-Instrucțiuni:
-	•	Explorează variante: HIIT, forță clasică, circuit training
-	•	Compară eficiența
+Instructiuni:
+	•	Exploreaza variante: HIIT, forta clasica, circuit training
+	•	Compara eficienta
 
-Format de ieșire:
-	•	Analiză strategii
-	•	Alegerea optimă
-	•	Plan săptămânal detaliat
+Format de iesire:
+	•	Analiza strategii
+	•	Alegerea optima
+	•	Plan saptamanal detaliat
 
 
 ----------------------------------------------------------------
 8. PROMPT CHAINING
 ----------------------------------------------------------------
-Construiește un prompt cu două etape clare:
-1) analiză antrenament HIIT
+Construieste un prompt cu doua etape clare:
+1) analiza antrenament HIIT
 2) generare plan structurat
 
 Prompt:
 
-Realizează sarcina în două etape clare.
+Realizeaza sarcina in doua etape clare.
 
 Context utilizator:
 	•	Adult 32 ani
-	•	Vrea antrenament HIIT pentru slăbire
+	•	Vrea antrenament HIIT pentru slabire
 
-Instrucțiuni:
-Etapa 1: Analizează beneficiile și riscurile antrenamentului HIIT.
-Etapa 2: Creează un plan structurat de 4 săptămâni.
+Instructiuni:
+Etapa 1: Analizeaza beneficiile si riscurile antrenamentului HIIT.
+Etapa 2: Creeaza un plan structurat de 4 saptamani.
 
-Format de ieșire:
-	•	Secțiunea „Analiză”
-	•	Secțiunea „Plan HIIT” cu structură pe săptămâni
+Format de iesire:
+	•	Sectiunea „Analiza"
+	•	Sectiunea „Plan HIIT" cu structura pe saptamani
 
 
 ----------------------------------------------------------------
 9. REACT (Reason + Act) + PERSONIFICARE
 ----------------------------------------------------------------
-Scrie un prompt în care modelul explică raționamentul (Reason)
-și propune acțiuni concrete (Act), într-un format clar
-pentru un antrenament săptămânal.
+Scrie un prompt in care modelul explica rationamentul (Reason)
+si propune actiuni concrete (Act), intr-un format clar
+pentru un antrenament saptamanal.
 
 Prompt:
 
-Acționează ca un coach fitness experimentat și oferă răspuns în format Reason + Act.
+Actioneaza ca un coach fitness experimentat si ofera raspuns in format Reason + Act.
 
 Context utilizator:
 	•	Adult 45 ani
-	•	Vrea antrenament pentru sănătate generală
+	•	Vrea antrenament pentru sanatate generala
 
-Instrucțiuni:
-	•	Explică mai întâi raționamentul (Reason)
-	•	Apoi propune acțiuni concrete (Act)
+Instructiuni:
+	•	Explica mai intai rationamentul (Reason)
+	•	Apoi propune actiuni concrete (Act)
 
-Format de ieșire:
-	•	Reason (analiză logică)
-	•	Act (plan săptămânal clar)
+Format de iesire:
+	•	Reason (analiza logica)
+	•	Act (plan saptamanal clar)
 
 
 ----------------------------------------------------------------
 10. MULTIMODAL PROMPTING + PERSONIFICARE
 ----------------------------------------------------------------
-Formulează un prompt în care modelul este personificat ca
-„antrenor într-o sală de fitness”, primește o imagine
-și recomandă exerciții pe baza ei.
+Formuleaza un prompt in care modelul este personificat ca
+„antrenor intr-o sala de fitness", primeste o imagine
+si recomanda exercitii pe baza ei.
 
 Prompt:
 
 
-Acționează ca un antrenor într-o sală de fitness.
+Actioneaza ca un antrenor intr-o sala de fitness.
 
-Vei primi o imagine cu o persoană care se antrenează.
+Vei primi o imagine cu o persoana care se antreneaza.
 
 Context utilizator:
-	•	Persoană începătoare
-	•	Vrea corectarea tehnicii și exerciții suplimentare
+	•	Persoana incepatoare
+	•	Vrea corectarea tehnicii si exercitii suplimentare
 
-Instrucțiuni:
-	•	Analizează postura și echipamentul din imagine
-	•	Recomandă exerciții potrivite nivelului
+Instructiuni:
+	•	Analizeaza postura si echipamentul din imagine
+	•	Recomanda exercitii potrivite nivelului
 
-Format de ieșire:
-	•	Observații despre imagine (bullet points)
-	•	Recomandări exerciții
-	•	Sfaturi de siguranță
+Format de iesire:
+	•	Observatii despre imagine (bullet points)
+	•	Recomandari exercitii
+	•	Sfaturi de siguranta
